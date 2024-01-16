@@ -2,10 +2,12 @@ import React from "react";
 
 import "./projects.styles.scss";
 
+import { motion } from "framer-motion";
+
 const projectData = [
   {
     imageUrl:
-      "https://github.com/ojieprincewill/website-photos/blob/master/revent%20snippet.png?raw=true",
+      "https://github.com/ojieprincewill/website-photos/blob/master/revent%20snippet.jpg?raw=true",
     title: "revent",
     gitHub: "https://github.com/ojieprincewill/revent",
     liveDemo: "https://revent-pied.vercel.app/",
@@ -16,7 +18,7 @@ const projectData = [
   },
   {
     imageUrl:
-      "https://github.com/ojieprincewill/website-photos/blob/master/bistro%20snippet.png?raw=true",
+      "https://github.com/ojieprincewill/website-photos/blob/master/bistro%20snippet.jpg?raw=true",
     title: "bistro",
     gitHub: "https://github.com/ojieprincewill/bistro",
     liveDemo: "https://bistro-eta.vercel.app/",
@@ -27,7 +29,7 @@ const projectData = [
   },
   {
     imageUrl:
-      "https://github.com/ojieprincewill/website-photos/blob/master/baroque%20snippet.png?raw=true",
+      "https://github.com/ojieprincewill/website-photos/blob/master/baroque%20snippet.jpg?raw=true",
     title: "baroque",
     gitHub: "https://github.com/ojieprincewill/Baroque-store",
     liveDemo: "https://baroque-store.vercel.app/",
@@ -47,11 +49,22 @@ const Projects = () => {
         {projectData.map((project) => (
           <div className="project-grid">
             <div className="project-image-cont">
-              <img
-                src={project.imageUrl}
-                alt={`rep of ${project.title}`}
-                className="project-image"
-              />
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3 }}
+              >
+                <a
+                  href={project.liveDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={project.imageUrl}
+                    alt={`rep of ${project.title}`}
+                    className="project-image"
+                  />
+                </a>
+              </motion.div>
             </div>
             <div className="project-text-cont">
               <p className="project-title">{project.title}</p>

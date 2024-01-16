@@ -134,6 +134,21 @@
           width: 95%;
           height: 250px;
         }
+
+        .project-text-cont {
+          .link-buttons {
+            margin: 20px 0;
+            gap: unset;
+
+            .git-btn {
+              margin: 0 5px;
+            }
+
+            .live-btn {
+              margin: 0 5px;
+            }
+          }
+        }
       }
     }
   }
@@ -165,6 +180,15 @@
 
           .link-buttons {
             margin: 20px 0;
+            gap: unset;
+
+            .git-btn {
+              margin: 0 5px;
+            }
+
+            .live-btn {
+              margin: 0 5px;
+            }
           }
         }
       }

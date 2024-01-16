@@ -130,6 +130,7 @@
 
 @media only screen and (max-width: 600px) {
   .landing-container {
+    margin: 80px 0 50px;
     display: flex;
     flex-direction: column;
     gap: unset;
@@ -138,6 +139,29 @@
       width: 200px;
       height: 200px;
       margin: 0 0 50px;
+    }
+
+    .profile-cont {
+      .name {
+        max-width: 90%;
+      }
+
+      .profile-buttons {
+        gap: unset;
+
+        .button1 {
+          margin: 0 10px 0 0;
+        }
+      }
+
+      .link-container {
+        gap: unset;
+        padding: 10px 0 0 20px;
+
+        .link {
+          margin: 0 10px 0 0;
+        }
+      }
     }
   }
 }

@@ -5,18 +5,24 @@ import "./about.styles.scss";
 import { SiBookstack } from "react-icons/si";
 import { GiAchievement } from "react-icons/gi";
 
+import { motion } from "framer-motion";
+
 const About = () => {
   const imageUrl =
-    "https://github.com/ojieprincewill/website-photos/blob/master/headshot%203.jpg?raw=true";
+    "https://github.com/ojieprincewill/website-photos/blob/master/headshot%203%20(1).jpg?raw=true";
   return (
     <div id="about" className="about-section">
       <p className="about-subtitle">Get to know more</p>
       <p className="about-title">About me</p>
 
       <div className="about-grid">
-        <div className="about-image-container">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+          className="about-image-container"
+        >
           <img src={imageUrl} alt="Armstrong" className="about-image" />
-        </div>
+        </motion.div>
         <div className="text-container">
           <div className="blips-flex">
             <div className="blip">

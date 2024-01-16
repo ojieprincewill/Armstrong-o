@@ -12,6 +12,16 @@ const Landing = () => {
   const imgUrl =
     "https://github.com/ojieprincewill/website-photos/blob/master/headshot%201.jpg?raw=true";
 
+  const handleDownload = () => {
+    const cvUrl =
+      "https://github.com/ojieprincewill/website-photos/raw/master/Web%20Developer%20Resume.docx";
+
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "Ojiemekeme_Armstrong_CV.docx";
+    link.click();
+  };
+
   return (
     <div className="landing-container">
       <motion.div
@@ -52,7 +62,9 @@ const Landing = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="profile-buttons"
         >
-          {/* <button className="button1">Download CV</button> */}
+          <button className="button1" onClick={handleDownload}>
+            Download CV
+          </button>
           <button className="button2">
             <Link to="contact" smooth={true} duration={500}>
               Contact Me

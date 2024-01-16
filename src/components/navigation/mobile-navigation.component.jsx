@@ -22,7 +22,7 @@ const MobileNav = () => {
         Projects
       </Link>
       <Link
-        to="contacts"
+        to="contact"
         smooth={true}
         duration={500}
         className="mobile-navlink"
