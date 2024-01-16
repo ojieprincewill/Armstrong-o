@@ -24,8 +24,8 @@ const About = () => {
                 <GiAchievement />
               </span>
               <span className="blip-title">Experience</span>
-              <span className="blip-text">2+ years</span>
-              <span className="blip-text">Full-stack Development</span>
+              <span className="blip-text">Front-end Development</span>
+              <span className="blip-text">Back-end Development</span>
             </div>
             <div className="blip">
               <span className="blip-icon">
@@ -38,15 +38,16 @@ const About = () => {
           </div>
           <div className="about-text-cont">
             <p className="about-text">
-              My name is ojiemekeme princewill armstrong obozokhae, a passionate
-              React developer with a unique background in medical biochemistry.
-              While my journey started in the field of medical sciences, my
-              curiosity and love for technology led me to the exciting world of
-              web development.
+              My name is ojiemekeme princewill armstrong obozokhae, but you may
+              simply call me princewill. A passionate React developer with a
+              unique background in medical biochemistry. While my journey
+              started in the field of medical sciences, my curiosity and love
+              for technology led me to the exciting world of web development.
             </p>
             <p className="about-text">
-              My coding adventure began as a self-taught enthusiast, exploring
-              the intricacies of React.js, JavaScript, and full-stack
+              My coding adventure began as a self-taught enthusiast, initially
+              exploring the intricacies of HTML, CSS, SASS and Bootstrap and
+              eventually moving on to JavaScript, React.js, and full-stack
               development. Guided by mentorship, I've honed my skills in
               crafting innovative and user-centric solutions. What sets me apart
               is the blend of my medical expertise and technical prowess. This

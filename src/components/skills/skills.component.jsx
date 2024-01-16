@@ -102,16 +102,21 @@ const Skills = () => {
       <div className="skill-text-cont">
         <p className="skill-text">
           Throughout my transformative journey in web development over the past
-          year, I've absorbed a wealth of technical and soft skills. Mastery in
-          React.js, proficiency in JavaScript, and a deep understanding of
-          full-stack development are just a glimpse into my evolving expertise.
+          year and a half, I've cultivated a rich set of skills. Confidently, I
+          affrim proficiency in JavaScript, React,js and a proper understanding
+          of full-stack development. However, I embrace a continual learning
+          mindset, believing that the pursuit of knowledge never stops. Always
+          seeking out new courses and staying abreast of industry trends, I find
+          joy in the ongoing evolution of my skills.
         </p>
         <p className="skill-text">
-          Confidently, I affirm my proficiency in backend technologies,
-          navigating their intricacies at an intermediate level. This journey
-          isn't just about learning to code; it's about crafting solutions with
-          a blend of creativity and technical finesse. I'm thrilled to apply
-          these skills to create innovative and impactful projects.
+          I understand that true success in web development, or any other
+          venture in fact, extends beyond technical proficiency. It encompasses
+          effective communication, collaboration within a team, and the
+          adaptability to navigate the dynamic landscape of technology. My
+          commitment to excellence lies not only in mastering the many
+          intricacies of code but also in honing the soft skills that make a
+          well-rounded developer.
         </p>
       </div>
     </div>

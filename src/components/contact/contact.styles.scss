@@ -26,20 +26,28 @@
     margin: 0 0 60px;
   }
 
+  .contact-text1 {
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 50px;
+    color: #ccc;
+  }
+
   .contact-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    .contact-text {
+    .contact-text2 {
       font-size: 16px;
       margin: 0 0 16px;
       color: #b57d33;
 
       .label {
         font-weight: 500;
-        margin: 0 5px 0 0;
+        margin: 0 10px 0 0;
         color: #fff;
       }
     }
@@ -73,16 +81,28 @@
       font-size: 14px;
       color: #ccc;
       margin: 20px 0 0;
+
+      span {
+        color: #b57d33;
+      }
     }
   }
 }
 
 @media only screen and (max-width: 600px) {
   .contact-section {
+    .contact-text1 {
+      font-size: 16px;
+      width: 90%;
+      text-align: center;
+      margin: 0 auto 50px;
+      color: #ccc;
+    }
+
     .contact-info {
       display: flex;
       flex-direction: column;
-      width: 70%;
+      width: 90%;
       margin: 0 auto;
       justify-content: center;
       align-items: flex-start;

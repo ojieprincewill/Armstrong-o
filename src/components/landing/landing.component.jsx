@@ -3,6 +3,7 @@ import React from "react";
 import "./landing.styles.scss";
 
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
@@ -10,24 +11,60 @@ import { IoLogoGithub } from "react-icons/io";
 const Landing = () => {
   const imgUrl =
     "https://github.com/ojieprincewill/website-photos/blob/master/headshot%201.jpg?raw=true";
+
   return (
     <div className="landing-container">
-      <div className="image-container">
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.3 }}
+        className="image-container"
+      >
         <img src={imgUrl} alt="armstrong" className="dev-image" />
-      </div>
+      </motion.div>
       <div className="profile-cont">
-        <p className="greeting">Hello, I'm</p>
-        <p className="name">Ojiemekeme Armstrong Obozokhae</p>
-        <p className="job-title">Web Developer</p>
-        <div className="profile-buttons">
-          <button className="button1">Download CV</button>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="greeting"
+        >
+          Hello, I'm
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="name"
+        >
+          Ojiemekeme Armstrong Obozokhae
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.4 }}
+          className="job-title"
+        >
+          Web Developer
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="profile-buttons"
+        >
+          {/* <button className="button1">Download CV</button> */}
           <button className="button2">
             <Link to="contact" smooth={true} duration={500}>
               Contact Me
             </Link>
           </button>
-        </div>
-        <div className="link-container">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.8 }}
+          className="link-container"
+        >
           <a
             href="https://www.linkedin.com/in/ojiemekeme-armstrong-obozokhae/"
             target="_blank"
@@ -42,7 +79,7 @@ const Landing = () => {
           >
             <IoLogoGithub className="link" />
           </a>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
