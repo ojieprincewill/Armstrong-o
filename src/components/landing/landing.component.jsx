@@ -10,11 +10,11 @@ import { IoLogoGithub } from "react-icons/io";
 
 const Landing = () => {
   const imgUrl =
-    "https://github.com/ojieprincewill/website-photos/blob/master/headshot%201.jpg?raw=true";
+    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshot%201.jpg?raw=true";
 
   const handleDownload = () => {
     const cvUrl =
-      "https://github.com/ojieprincewill/website-photos/raw/master/Web%20Developer%20Resume.docx";
+      "https://github.com/ojieprincewill/Porfolio-Data/raw/master/Armstrong%20O.%20Resume.docx";
 
     const link = document.createElement("a");
     link.href = cvUrl;

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const imageUrl =
-    "https://github.com/ojieprincewill/website-photos/blob/master/headshot%203%20(1).jpg?raw=true";
+    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshot%203%20(1).jpg?raw=true";
   return (
     <div id="about" className="about-section">
       <p className="about-subtitle">Get to know more</p>
