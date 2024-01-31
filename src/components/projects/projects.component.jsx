@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const projectData = [
   {
     imageUrl:
-      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/revent%20snippet.jpg?raw=true",
+      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/revent%20snippets/revent%20snippet.jpg?raw=true",
     title: "revent",
     gitHub: "https://github.com/ojieprincewill/revent",
     liveDemo: "https://revent-pied.vercel.app/",
@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     imageUrl:
-      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/bistro%20snippet.jpg?raw=true",
+      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/bistro%20snippets/bistro%20snippet%203.png?raw=true",
     title: "bistro",
     gitHub: "https://github.com/ojieprincewill/bistro",
     liveDemo: "https://bistro-eta.vercel.app/",
@@ -29,7 +29,7 @@ const projectData = [
   },
   {
     imageUrl:
-      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/baroque%20snippet.jpg?raw=true",
+      "https://github.com/ojieprincewill/Porfolio-Data/blob/master/baroque%20snippets/baroque%20snippet%201.jpg?raw=true",
     title: "baroque",
     gitHub: "https://github.com/ojieprincewill/Baroque-store",
     liveDemo: "https://baroque-store.vercel.app/",

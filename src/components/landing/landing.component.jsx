@@ -10,7 +10,7 @@ import { IoLogoGithub } from "react-icons/io";
 
 const Landing = () => {
   const imgUrl =
-    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshot%201.jpg?raw=true";
+    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshots/headshot%201.jpg?raw=true";
 
   const handleDownload = () => {
     const cvUrl =
