@@ -46,8 +46,8 @@ const Projects = () => {
       <p className="projects-subtitle">Browse my previous</p>
       <p className="projects-header">Projects</p>
       <div className="projects-cont">
-        {projectData.map((project) => (
-          <div className="project-grid">
+        {projectData.map((project, index) => (
+          <div className={`project-grid  ${index % 2 === 1 ? "reverse" : ""}`}>
             <div className="project-image-cont">
               <motion.div
                 whileHover={{ scale: 1.1 }}

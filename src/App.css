@@ -9,7 +9,10 @@ html {
 }
 
 body {
-  background-color: white;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: black;
   margin: 0 auto;
   padding: 0;
@@ -35,5 +38,5 @@ img {
 
 ::-webkit-scrollbar-thumb {
   background-color: #b57d33;
-  background-image: linear-gradient(315deg, #2234ae 0%, #b57d33 74%);
+  background-image: linear-gradient(315deg, #2234ae 0%, #e5bc7f 74%);
 }

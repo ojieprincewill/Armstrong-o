@@ -14,7 +14,7 @@ const Landing = () => {
 
   const handleDownload = () => {
     const cvUrl =
-      "https://github.com/ojieprincewill/Porfolio-Data/raw/master/Armstrong%20O.%20Resume.docx";
+      "https://github.com/ojieprincewill/Porfolio-Data/raw/master/Ojiemekeme%20Armstrong%20-%20%20Front-end%20Web%20Developer%20Resume.docx";
 
     const link = document.createElement("a");
     link.href = cvUrl;

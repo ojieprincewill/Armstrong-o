@@ -16,13 +16,6 @@ const About = () => {
       <p className="about-title">About me</p>
 
       <div className="about-grid">
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.3 }}
-          className="about-image-container"
-        >
-          <img src={imageUrl} alt="Armstrong" className="about-image" />
-        </motion.div>
         <div className="text-container">
           <div className="blips-flex">
             <div className="blip">
@@ -69,6 +62,13 @@ const About = () => {
             </p>
           </div>
         </div>
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
+          className="about-image-container"
+        >
+          <img src={imageUrl} alt="Armstrong" className="about-image" />
+        </motion.div>
       </div>
     </div>
   );
