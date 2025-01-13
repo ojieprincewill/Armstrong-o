@@ -5,6 +5,8 @@ import "./contact.styles.scss";
 import { Link } from "react-scroll";
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div id="contact" className="contact-section">
       <p className="contact-subtitle">Get in touch</p>
@@ -70,8 +72,8 @@ const Contact = () => {
           </Link>
         </div>
         <p className="footer-text">
-          <span>&copy; 2024</span> Ojiemekeme Princewill Armstrong Obozokhae.
-          All rights reserved.
+          <span>&copy; {currentYear}</span> Ojiemekeme Armstrong Obozokhae. All
+          rights reserved.
         </p>
       </div>
     </div>
