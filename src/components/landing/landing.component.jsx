@@ -9,12 +9,11 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
 
 const Landing = () => {
-  const imgUrl =
-    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshots/headshot%201.jpg?raw=true";
+  const imgUrl = "https://i.ibb.co/mF0wPcM9/headshot-1.jpg";
 
   const handleDownload = () => {
     const cvUrl =
-      "https://github.com/ojieprincewill/Porfolio-Data/raw/master/Ojiemekeme%20Armstrong%20-%20%20Front-end%20Web%20Developer%20Resume.docx";
+      "https://github.com/ojieprincewill/Portfolio-Data/raw/refs/heads/master/Ojiemekeme%20Obozokhae%20-%20%20Front-end%20Web%20Developer%20Resume.docx";
 
     const link = document.createElement("a");
     link.href = cvUrl;

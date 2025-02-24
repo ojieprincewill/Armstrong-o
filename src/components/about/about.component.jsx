@@ -8,8 +8,7 @@ import { GiAchievement } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const About = () => {
-  const imageUrl =
-    "https://github.com/ojieprincewill/Porfolio-Data/blob/master/headshots/headshot%203%20(1).jpg?raw=true";
+  const imageUrl = "https://i.ibb.co/s9M9LPHz/headshot-3-1.jpg";
   return (
     <div id="about" className="about-section">
       <p className="about-subtitle">Get to know more</p>
